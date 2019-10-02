@@ -1,0 +1,117 @@
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1{
+    font-family: ALGERIAN;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn2,.signupbtn {
+    float: left;
+    width: 60%;
+}
+.cancelbtn{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+
+
+/* Add padding to container elements */
+.container2 {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn2, .signupbtn {
+       width: 100%;
+    }
+}
+
+#asideDiv{
+	width: 50%;
+	margin: auto;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+.statusmsg{
+    margin: auto;
+    text-align: center;
+    margin-left:20px; 
+}

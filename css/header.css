@@ -1,0 +1,68 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1{
+    font-family: ALGERIAN;
+    font-size: 40px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.statusmsg{
+    margin: auto;
+    text-align: center;
+    margin-left:20px; 
+}
+.footer{
+    text-align: center;
+    margin-top: 400px;
+ }
+
+.mainbody{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#wrap{
+    background: #FFFFFF; /* Set content background to white */
+    width: 615px; /* Set the width of our content area */
+    margin: 0 auto; /* Center our content in our browser */
+    margin-top: 50px; /* Margin top to make some space between the header and the content */
+    padding: 10px; /* Padding to make some more space for our text */
+    border: 1px solid #DFDFDF; /* Small border for the finishing touch */
+    text-align: center; /* Center our content text */
+}
+ 
+#wrap h3{
+    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+}
