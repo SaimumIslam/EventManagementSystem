@@ -101,7 +101,7 @@ b{
   </div>
 
   <div class="container">
-    <label for="signinEmail"><b>Username</b></label>
+    <label for="signinEmail"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="signinEmail" value="<?php echo ''.$signinEmail?>" required>
 
     <label for="signinPassword"><b>Password</b></label>
