@@ -65,13 +65,13 @@ Users can find:<ol>
 
 
 
-Schema Diagram:
-    • user_information: (u_id, username, email, phone, password, city)
-    • event_creation: (event_id, event_title, start_registration_date, end_registration_date, event_start_date, organized_by, 		venue, event_length, about, user_id)
-    • event_option: (option_id, option_title, fee, time, building, event_id)
-    • event_comment: (comment_comment_datetime, event_id, user_id)
-    • event_user_add: (organization, transaction, active, user_id, option_id)
-    • message: (id,  message, datetime, user_id, even_id, hosteroruser)
-
+<b>Schema Diagram:<b><ul>
+    <li><i>user_information:</i> (u_id, username, email, phone, password, city)</li>
+    <li><i>event_creation:</i> (event_id, event_title, start_registration_date, end_registration_date, event_start_date, organized_by, venue, event_length, about, user_id)</li>
+    <li><i>event_option:</i> (option_id, option_title, fee, time, building, event_id)</li>
+    <li><i>event_comment:</i> (comment_comment_datetime, event_id, user_id)</li>
+    <li><i>event_user_add:</i> (organization, transaction, active, user_id, option_id)</li>
+    <li><i>message:</i> (id,  message, datetime, user_id, even_id, hosteroruser)</li>
+	</ul>
 <b>Conclusion:</b>
 The Event management system allows the user to create or host an event and also join an event which will reduce their sufferings and reduce time. In a word, the total Event Management System is digitalized in this web application.
