@@ -6,17 +6,17 @@
 	<li>Md. Abdul Lotif (160212)</li>
 	</ol>
 
-<b>Abstract</b> 
+<b>Abstract:</b> </br>
 A web application or web app is a client-server software application in which the client (or user interface) runs in a web browser. Common web applications include webmail, online management systems, online retail sales and many other functions.
 Our Event Management System is a web application to manage or Host an Event. It provides effective tools to maintain the total management system.
 
 
-<b>Introduction:</b>
+<b>Introduction:</b></br>
 The Event management system will look after all the tasks that are necessary to be performed within a particular Event. The system will be developed to reduce the paper work which are being performed by the various organization to manage an event . However, no system can be successful without human beings and the major task of this system will be to eliminate the processing time and produce result on time.
 
 
 
-<b>Project Objectives:</b>
+<b>Project Objectives:</b></br>
 In this Event Management System:<ol>
     <li>Users are able to create a new account.</li>
     <li>Users are able to host a new event. </li>
@@ -31,7 +31,7 @@ In this Event Management System:<ol>
 </ol>
 
 
-<b>Required Software & Tools:</b>
+<b>Required Software & Tools:</b></br>
     <ol>
 	<li>HTML.</li>
     	<li>PHP</li>
@@ -43,14 +43,14 @@ In this Event Management System:<ol>
 
 
 
-<b>Project Description:</b>
+<b>Project Description:</b></br>
 In this management system, we built a web application from where the whole
 Event Management System is controlled. There is one kind of account in general but every user can be able to create or host a new event and play a role as admin. In this system, all the information about user and event are stored.
 At first users have to create a new account if he/she has no previous one.
 After that a user can be able to create or host his/her new event. In this application user have full access on his profile. 
 
 
-<b>Interesting Queries:</b>
+<b>Interesting Queries:</b></br>
 Users can find:<ol>
     <li>All event.</li>
     <li>Upcoming Events.</li>
@@ -65,7 +65,7 @@ Users can find:<ol>
 
 
 
-<b>Schema Diagram:</b><ul>
+<b>Schema Diagram:</b></br><ul>
     <li><i>user_information:</i> (u_id, username, email, phone, password, city)</li>
     <li><i>event_creation:</i> (event_id, event_title, start_registration_date, end_registration_date, event_start_date, organized_by, venue, event_length, about, user_id)</li>
     <li><i>event_option:</i> (option_id, option_title, fee, time, building, event_id)</li>
@@ -73,5 +73,5 @@ Users can find:<ol>
     <li><i>event_user_add:</i> (organization, transaction, active, user_id, option_id)</li>
     <li><i>message:</i> (id,  message, datetime, user_id, even_id, hosteroruser)</li>
 	</ul>
-<b>Conclusion:</b>
+<b>Conclusion:</b></br>
 The Event management system allows the user to create or host an event and also join an event which will reduce their sufferings and reduce time. In a word, the total Event Management System is digitalized in this web application.
