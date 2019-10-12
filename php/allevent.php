@@ -41,10 +41,10 @@ li a:hover:not(.active) {
         else
           echo "../index.php";
       ?>"><i class="fa fa-home"></i> Home</a> </li>
-	<li><a href="messenger.php">Messege</a></li>
-	<li><a href="createevent.php">Create Event</a></li>
-	<li><a href="allevent.php">All Event</a></li>
-	<li class="about"><a href="aboutus.php">About Us</a></li>
+	<li><a href="../php/messenger.php">Messege</a></li>
+	<li><a href="../php/createevent.php">Create Event</a></li>
+	<li><a href="../php/allevent.php">All Event</a></li>
+	<li class="about"><a href="../php/aboutus.php">About Us</a></li>
   <div class="warning">
         <li><a href="../controller/signoutAction.php" >Sign out</a></li>
       </div></ul>

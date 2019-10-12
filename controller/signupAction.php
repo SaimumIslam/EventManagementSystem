@@ -71,6 +71,8 @@ $result = mysqli_query($conn, $sql);
 
 $msgg = "Thank you for registration.";
 
+ 
+echo "<script type='text/javascript'>window.top.location='../php/signin.php/';</script>"; exit;
 
 /*
 $to      = $signupemail; 

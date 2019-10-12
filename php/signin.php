@@ -79,7 +79,6 @@ b{
   <li><a href="../index.php"><i class="fa fa-home"></i> Home</a> </li>
   <li><a href="signin.php">Sign In</a></li>
   <li><a href="signup.php">Sign Up</a></li>
-  <li class="about"><a href="aboutus.php">About Us</a></li>
 </ul>
 </div>
 
