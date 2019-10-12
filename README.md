@@ -65,7 +65,7 @@ Users can find:<ol>
 
 
 
-<b>Schema Diagram:<b><ul>
+<b>Schema Diagram:</b><ul>
     <li><i>user_information:</i> (u_id, username, email, phone, password, city)</li>
     <li><i>event_creation:</i> (event_id, event_title, start_registration_date, end_registration_date, event_start_date, organized_by, venue, event_length, about, user_id)</li>
     <li><i>event_option:</i> (option_id, option_title, fee, time, building, event_id)</li>
