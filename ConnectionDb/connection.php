@@ -1,9 +1,9 @@
 <?php 
 
 $host = "localhost";
-$user = "root";
-$pass = "";
-$dbName = "event_management";
+$user = "lotifxyz_root";
+$pass = "adminroot1234";
+$dbName = "lotifxyz_eventmanagement";
 
 $conn = mysqli_connect($host, $user, $pass, $dbName);
 
