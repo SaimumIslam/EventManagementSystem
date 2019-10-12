@@ -1,6 +1,6 @@
 <h1>Event Management System</h1>
 
-<b><h3>Team Members: <h3></b></br>
+<b><h3>Team Members: </h3></b></br>
 	1. Saimum Islam (160227)
 	2. Md. Abdul Lotif (160212)
 
