@@ -1,16 +1,16 @@
-ul {
-    list-style-type: none;
+<style>
+.headerpart ul{
+  list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
 
-li {
-    float: left;
-}
-
-li a {
+.headerpart li a {
     display: block;
     color: white;
     text-align: center;
@@ -18,20 +18,60 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.headerpart li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: red;
+    text-decoration:underline;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: rgb(66, 67, 71);
 }
 
-h1{
-	font-family: ALGERIAN;
-	font-size: 40px;
-	text-align: center;
+.title, h1{
+  text-align: left; 
+  padding-left: 30px;
+  margin-top: 20px;
+  letter-spacing: -3px;
+  font-stretch: 10;
+  text-shadow: 2px 2px 2px red;
+  }
+.title, p{
+  text-align: right;
+  padding-right: 50px; 
+  letter-spacing: .78em;
+ }
+
+.mainbody{
+  margin-top: 51px;
+  background-color: rgb(222, 224, 226);
 }
 
+
+.title
+{
+  padding-top: 30px;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
 footer{
 	text-align: center;
 }
