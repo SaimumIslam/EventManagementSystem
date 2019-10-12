@@ -32,15 +32,14 @@ In this Event Management System:<ol>
 
 
 <b>Required Software & Tools:</b>
-    
     <ol>
-    <li>HTML.</li>
-    <li>PHP</li>
-    <li>Database: Mysql.</li>
-    <li>CSS, CSS framework: Bootstrap.</li>
-    <li>Web server: Apache – XAMPP.</li>
-    <li>Sublime text.</li>
-   </ol>
+	<li>HTML.</li>
+    	<li>PHP</li>
+    	<li>Database: Mysql.</li>
+    	<li>CSS, CSS framework: Bootstrap.</li>
+    	<li>Web server: Apache – XAMPP.</li>
+    	<li>Sublime text.</li>
+    </ol>
 
 
 
