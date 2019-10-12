@@ -2,8 +2,8 @@
 
 <br><h2>Group Members:</h2>
 	<ol>
-	<li>Saimum Islam (160227)</li>
-	<li>Md. Abdul Lotif (160212)</li>
+	<li><b><i>Saimum Islam (160227)</i></b></li>
+	<li><b><i>Md. Abdul Lotif (160212)</i></b></li>
 	</ol>
 
 <b>Abstract:</b> </br>
