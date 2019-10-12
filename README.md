@@ -1,4 +1,4 @@
-<h1>Event Management System</h1> <h2><a href='https://www.lotif1612.xyz/eventmanagement'>Visit The Site</a></h2>
+<h1>Event Management System</h1> <h2><a href='https://www.lotif1612.xyz/eventmanagement'>Visit Demo Site</a></h2>
 
 <b><h3>Team Members: </h3></b></br>
 	1. Saimum Islam (160227)</br>
