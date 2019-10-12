@@ -1,6 +1,6 @@
 <h1>Event Management System</h1>
 
-<br><h2>Group Members:<h2><br>
+<br><h2>Group Members:</h2>
 	<ol>
 	<li>Saimum Islam (160227)</li>
 	<li>Md. Abdul Lotif (160212)</li>
