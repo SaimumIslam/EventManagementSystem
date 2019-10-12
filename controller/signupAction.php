@@ -15,22 +15,21 @@ $ERR=0;
 $hash="";
 
 if(isset($_POST['signupusername'])) {
-$signupusername = $_POST['signupusername'];
+$signupusername =trim($_POST['signupusername']);
 }
 
 if(isset($_POST['signupemail'])) {
-$signupemail = $_POST['signupemail'];
+$signupemail = trim($_POST['signupemail']);
 }
 if(isset($_POST['signupphn'])) {
-$signupphn = $_POST['signupphn'];
+$signupphn = trim($_POST['signupphn']);
 }
 
 if(isset($_POST['signuplocation'])) {
-$signuplocation = $_POST['signuplocation'];
+$signuplocation = trim($_POST['signuplocation']);
 }
 if(isset($_POST['signuppassword'])) {
 $signuppassword = $_POST['signuppassword'];
-$password = md5($_POST['signuppassword']);
 }
 
 if(isset($_POST['signuppasswordrepeat'])) {

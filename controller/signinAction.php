@@ -11,8 +11,6 @@ session_start();
     {
       $signinEmail = $_POST['signinEmail'];
       $signinPassword = $_POST['signinPassword'];
-
-
         
       $search = "SELECT email, password FROM user_information WHERE email='$signinEmail' AND password='$signinPassword'";
       $result = mysqli_query($conn, $search);
@@ -22,12 +20,18 @@ session_start();
 
       if($match>0)
       { 
+        $_SESSION['email']=$signinEmail;
+        $_SESSION['password']=$signinPassword;
+
+        $id_query = "SELECT u_id from user_information where email='$signinEmail' AND password='$signinPassword'";
+        $result2 = mysqli_query($conn, $id_query);
+        
+          $row = mysqli_fetch_array($result2);
+        
+        $_SESSION['userid'] = $row['u_id']; 
+        
         header("Location:../php/mainpage.php");
-
-        $_SESSION["email"]=$signinEmail;
-        $_SESSION["password"]=$signinPassword;
-          exit;
-
+        exit();
       }
       else
       {
