@@ -30,8 +30,7 @@ session_start();
         
         $_SESSION['userid'] = $row['u_id']; 
         
-        header("Location:../php/mainpage.php");
-        exit();
+        echo "<script type='text/javascript'>window.top.location='../php/mainpage.php/';</script>"; exit;
       }
       else
       {
