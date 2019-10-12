@@ -5,25 +5,24 @@ A web application or web app is a client-server software application in which th
 Our Event Management System is a web application to manage or Host an Event. It provides effective tools to maintain the total management system.
 
 
-
 <b>Introduction:</b>
 The Event management system will look after all the tasks that are necessary to be performed within a particular Event. The system will be developed to reduce the paper work which are being performed by the various organization to manage an event . However, no system can be successful without human beings and the major task of this system will be to eliminate the processing time and produce result on time.
 
 
 
-<b>Project Objectives:<b>
-In this Event Management System:
-    1. Users are able to create a new account.
-    2. Users are able to host a new event. 
-    3. Users are able to join in an existing event. 
-    4. Admins are able to update their event programs.  
-    5. Users are able to find the other user who will join on a particular event .
-    6. Users are able to communicate with event admin. 
-    7.  Only admin can add a new program on his/her event.
-    8. Every user can able to update their profile.
-    9. User can pay for an event in-order to join.
-    10. User can registration in a specific date that have been provided by event creator.
-
+<b>Project Objectives:</b>
+In this Event Management System:<ol>
+    <li>Users are able to create a new account.</li>
+    <li>Users are able to host a new event. </li>
+    <li>Users are able to join in an existing event. </li>
+    <li>Admins are able to update their event programs.</li>
+    <li>Users are able to find the other user who will join on a particular event.</li>
+    <li>Users are able to communicate with event admin. </li>
+    <li>Only admin can add a new program on his/her event.</li>
+    <li>Every user can able to update their profile.</li>
+    <li>User can pay for an event in-order to join.</li>
+    <li>User can registration in a specific date that have been provided by event creator.</li>
+</ol>
 
 
 <b>Required Software & Tools:</b>
